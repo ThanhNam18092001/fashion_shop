@@ -1,0 +1,23 @@
+.container {
+  padding: 150px 0 400px;
+  text-align: center;
+}
+.container .txt_order {
+  margin-top: 40px;
+  font-size: 25px;
+  color: #333333;
+  font-weight: 600;
+}
+.container .btn {
+  width: 357px;
+  height: 41px;
+  background-color: #424242;
+  border: 1px;
+  border-radius: 4px;
+}
+.container .btn .a {
+  color: white;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=order_confirmed.css.map */

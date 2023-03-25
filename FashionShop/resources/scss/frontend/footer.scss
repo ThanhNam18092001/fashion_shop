@@ -1,0 +1,34 @@
+.footer {
+	background-color: #212121;
+}
+.footer-container {
+	display: flex;
+	justify-content: space-between;
+	color: white;
+	padding-left: 100px;
+	padding-right: 150px;
+	padding-top: 10px;
+}
+.footer-title {
+	list-style-type: none;
+	font-size: 21px;
+	font-weight: bold;
+	margin-bottom: 24px;
+}
+.footer-content {
+	list-style-type: none;
+	margin-top: 16px;
+}
+.footer-icon {
+	font-size: 24px;
+}
+.footer-bottom {
+	display: flex;
+	justify-content: space-between;
+	margin-right: 100px;
+	margin-left: 100px;
+	color: white;
+}
+.footer-ul {
+	display: grid;
+}

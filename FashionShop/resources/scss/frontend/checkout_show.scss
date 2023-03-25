@@ -1,0 +1,68 @@
+.right_container {
+	flex: 3;
+	.right_detail {
+		width: 350px;
+		height: 569px;
+		background-color: #F5F5F5;
+		padding: 20px;
+		.btn_container {
+			text-align: center;
+		}
+		.right_total_container {
+			justify-content: space-between;
+			display: flex;
+			font-weight: bold;
+		}
+		.right_flat_rate_container {
+			justify-content: space-between;
+			display: flex;
+			padding-left: 20px;
+			.right_flat_rate {
+				display: flex;
+				align-items: center;
+				.right_flat_rate_input {
+					margin-right: 8px;
+				}
+			}
+		}
+		.right_local_pickup_container {
+			justify-content: space-between;
+			display: flex;
+			padding-left: 20px;
+			.right_local_pickup {
+				display: flex;
+				align-items: center;
+				.right_local_pickup_input {
+					margin-right: 8px;
+				}
+			}
+		}
+		.right_free_shipping_container {
+			justify-content: space-between;
+			display: flex;
+			padding-left: 20px;
+			.right_free_shipping {
+				display: flex;
+				align-items: center;
+				.right_free_shipping_input {
+					margin-right: 8px;
+				}
+			}
+		}
+		.right_shipping_mt {
+			font-weight: bold;
+		}
+		.right_total_price {
+			justify-content: space-between;
+			display: flex;
+			padding-left: 20px;
+		}
+		.right_nam_price {
+			display: flex;
+			justify-content: space-between;
+		}
+	}
+}
+.left_container {
+	flex: 7;
+}

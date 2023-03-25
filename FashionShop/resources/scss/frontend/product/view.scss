@@ -1,0 +1,28 @@
+.price_container {
+	display: flex;
+	justify-content: space-between;
+	.btn_price_container {
+		display: grid;
+		.btn_add_to_cart {
+			background-color: #212121;
+			color: white;
+			width: 256px;
+			height: 41px;
+			border-radius: 4px;
+		}
+		.btn_but_it_now {
+			background-color: #424242;
+			color: white;
+			width: 256px;
+			height: 41px;
+			border-radius: 4px;
+		}
+	}
+}
+.btn_wish_list {
+	border: 1px;
+}
+.product_name {
+	font-size: 32px;
+	color: #212121;
+}
